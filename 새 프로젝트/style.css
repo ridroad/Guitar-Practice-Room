@@ -23,7 +23,7 @@ div{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height:660px;
+  height:1000px;
 }
 
 #grid div{
