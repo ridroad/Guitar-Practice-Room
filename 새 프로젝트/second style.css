@@ -49,31 +49,31 @@ iframe{
   width:670px;
   height:230px;
 }
+
+#grid div{
+  padding:20px;
+}
+ol{
+  padding-left:30px;
+  padding-top:20px;
+  font-style: oblique;
+  font-weight: 900;
+  font-size: 110%;
+  line-height: 200%;
+}
+span{
+  padding-top:20px;
+  font-style: oblique;
+  font-weight: 900;
+  font-size: 110%;
+  line-height: 200%;
 }
 
 @media(min-width:768px){
   #grid{
     display: grid;
     grid-template-columns: 220px 1fr;
+    grid-template-rows:none;
     height:2500px;
-
-  }
-  #grid div{
-    padding:20px;
-  }
-  ol{
-    padding-left:30px;
-    padding-top:20px;
-    font-style: oblique;
-    font-weight: 900;
-    font-size: 110%;
-    line-height: 200%;
-  }
-  span{
-    padding-top:20px;
-    font-style: oblique;
-    font-weight: 900;
-    font-size: 110%;
-    line-height: 200%;
   }
 }
