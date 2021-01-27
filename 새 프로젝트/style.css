@@ -13,21 +13,23 @@ div{
     border-right: 2px black dotted;
     border-left: 2px black dotted;
 }
-
 .saw{
   font-family: georgia,sans-serif, Arial, Helvetica, sans-serif;
   font-size:200%;
 }
 
+
 #grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   height:660px;
-
 }
+
 #grid div{
   padding:20px;
 }
+
 #grid ol{
   padding-left:30px;
   padding-top:20px;
@@ -36,11 +38,12 @@ div{
   font-weight: 900;
   line-height: 200%;
 }
-@media(max-width:768px){
-#grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; 
-  height:660px;
-}
+
+@media(min-width:1200px){
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+    height:660px;
+  }
 }
